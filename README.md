@@ -1,4 +1,4 @@
-# ndeapy - A Norde open banking api python client with uplink
+# ndeapy - [A Nordea open banking api](https://developer.nordeaopenbanking.com/) python client with uplink
 
 # How to use
 
