@@ -2,14 +2,22 @@
 
 # How to use
 
-1. Export your client variables (Optionally pass them as kwars to the client constructor)
+0. Install requirements 
+
+```shell
+pip install -r requirements.txt
 ```
+
+1. Export your client variables (Optionally pass them as kwars to the client constructor)
+
+```shell
 export NDEAPY_CLIENT_ID=<YOUR_CLIENT_ID>
 export NDEAPY_CLIENT_SECRET=<YOUR_CLIENT_SECRET>
 ```
 
 2. Pass the token to the client, and make your API calls
-```
+
+```python
 from ndeapy import *
 import json
 
