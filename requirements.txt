@@ -1,1 +1,3 @@
 uplink
+requests-http-signature
+pyopenssl

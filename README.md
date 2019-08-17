@@ -11,8 +11,10 @@ pip install -r requirements.txt
 1. Export your client variables (Optionally pass them as kwars to the client constructor)
 
 ```shell
-export NDEAPY_CLIENT_ID=<YOUR_CLIENT_ID>
-export NDEAPY_CLIENT_SECRET=<YOUR_CLIENT_SECRET>
+export NDEAPY_CLIENT_ID="<YOUR_CLIENT_ID>"
+export NDEAPY_CLIENT_SECRET="<YOUR_CLIENT_SECRET>"
+export NDEAPAY_SIGNATURE_KEY="./QSealC-NordeaDevPortal.p12"
+export NDEAPAY_SIGNATURE_KEY_PASSPHRASE="1111"
 ```
 
 2. Pass the token to the client, and make your API calls
